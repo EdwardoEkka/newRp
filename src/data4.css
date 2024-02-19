@@ -1,0 +1,125 @@
+.con{
+    color: white;
+}
+
+.jkimg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:50%;
+}
+
+@media only screen and (max-width: 767px) {
+  
+    .jkimg {
+       width:100%;
+    }
+}
+
+
+.tarea3 {
+    width: 600px;
+    padding: 8px;
+    margin-bottom: 12px;
+    resize: none;
+    opacity: 0.7;
+}
+
+.l_name3 {
+    background-color: aliceblue;
+    text-align: left;
+    margin: 8px 0;
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: 'Anime', sans-serif;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.l_name3:hover {
+    transform: scale(1.1);
+    opacity: 999;
+}
+
+.btn3 {
+    margin: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translate(0, 0);
+    width: 50px;
+}
+
+
+
+.fire {
+    position: absolute;
+    font-size: 2em;
+    /* Adjust the font size as needed */
+    color: #FF5722;
+    /* Fiery color */
+}
+
+/* Optional: Add animation styles */
+.fire {
+    animation-name: fireAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes fireAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .tarea3 {
+        width: 500px;
+    }
+
+    .l_name3 {
+        width: 500px;
+    }
+
+    .hee3 {
+        color: aliceblue;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .tarea3 {
+        width: 300px;
+    }
+
+    .l_name3 {
+        width: 280px;
+    }
+
+    .hee3 {
+        color: aliceblue;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .tarea3 {
+        width: 250px;
+    }
+
+    .l_name3 {
+        width: 250px;
+    }
+
+    .hee3 {
+        color: aliceblue;
+    }
+}
